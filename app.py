@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-model = load_model('CNN_model (1).h5')
+model = load_model('CNN_model(1).h5')
 
 def predict_digit(img):
     if img is None:
