@@ -53,25 +53,7 @@ demo = gr.Interface(
     outputs=gr.Label(num_top_classes=3),
     title="🔢 Handwritten Digit Recognizer",
     description="Draw a digit (0-9) below and let the AI guess what it is!",
-    theme=gr.themes.Soft(
-primary_hue="blue",
-neutral_hue="slate"
-).set(
-body_background_fill="#111827",
-body_background_fill_dark="#111827",
-),
-css="""
-.gradio-container {
-background-color: #111827 !important;
-color: #F9FAFB !important;
-}
-.gradio-container h1,
-.gradio-container h2,
-.gradio-container p,
-.gradio-container label {
-color: #F9FAFB !important;
-}
-""",
+    theme=gr.themes.Soft(),
 )
 
 demo.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
