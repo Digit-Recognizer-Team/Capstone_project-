@@ -59,8 +59,6 @@ demo = gr.Interface(
 ).set(
     body_background_fill="#000000",
     body_background_fill_dark="#000000",
-    background_fill_primary="#000000",
-    background_fill_primary_dark="#000000",
 ),
 css="""
 .gradio-container {
