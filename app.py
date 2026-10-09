@@ -54,22 +54,22 @@ demo = gr.Interface(
     title="🔢 Handwritten Digit Recognizer",
     description="Draw a digit (0-9) below and let the AI guess what it is!",
     theme=gr.themes.Soft(
-    primary_hue="blue",
-    neutral_hue="slate"
+primary_hue="blue",
+neutral_hue="slate"
 ).set(
-    body_background_fill="#000000",
-    body_background_fill_dark="#000000",
+body_background_fill="#111827",
+body_background_fill_dark="#111827",
 ),
 css="""
 .gradio-container {
-    background-color: #000000 !important;
-    color: #ffffff !important;
+background-color: #111827 !important;
+color: #F9FAFB !important;
 }
 .gradio-container h1,
 .gradio-container h2,
 .gradio-container p,
 .gradio-container label {
-    color: #ffffff !important;
+color: #F9FAFB !important;
 }
 """,
 )
